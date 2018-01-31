@@ -37,7 +37,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    
+    <link rel="stylesheet" href="css/normalize.css">            
     <link rel="stylesheet" href="css/estilos.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,6 +45,7 @@
     <title>Victoriano Sevillano Vega - Portfolio</title>
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/bajar.js"></script>
 </head>
 <body>
     <main>
@@ -59,13 +60,13 @@
                 <span>
                     <ul class="sub-menu">
                         <li>
-                            <a href="#about" title="about">Inicio</a>
+                            <a href="index.html" title="inicio" id="inicio">Inicio</a>
                         </li>
                         <li>
-                            <a href="#skills" title="skills">Sobre mi</a>
+                            <a href="#sobre-mi" title="sobre mi" id="sobre-mi">Sobre mi</a>
                         </li>
                         <li>
-                            <a href="#jobs" title="jobs">Proyectos</a>
+                            <a href="#proyectos" title="proyectos" id="proyectos">Proyectos</a>
                         </li>
                     </ul>
                 </span>
@@ -79,9 +80,7 @@
         </div>
         
         <div class="sobre-mi">
-            <div id="sobre-mi-title">
-                <h2>Sobre mi</h2>
-            </div>
+            <h2 id="sobre-mi">Sobre mi</h2>
             <div class="sobre-mi-contenido">
                 <div class="sobre-mi-imagen">
                     <img src="img/victor.jpg" alt="">
@@ -121,6 +120,36 @@
                 </div>
             </div>
         </div>
+        <div class="proyectos">
+            <h2 id="proyectos">Proyectos</h2>
+            <div class="proyectos-conjunto">
+                <div class="proyecto">
+                    <a href=""> <img src="img/html.jpg" alt="Logo PHP"></a>
+                    <h3>HTML5 + CSS3</h3>
+                </div>
+                <div class="proyecto">
+                    <a href=""> <img src="img/php.jpg" alt="Logo PHP"></a>
+                    <h3>PHP</h3>
+                </div>
+                <div class="proyecto">
+                    <a href=""> <img src="img/js.jpg" alt="Logo PHP"></a>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="proyecto">
+                    <a href=""> <img src="img/android.jpg" alt="Logo PHP"></a>
+                    <h3>Android</h3>
+                </div>
+            </div>
+        </div>
+        
     </main>
+    <footer>
+        <p>Porfolio de Victoriano Sevillano Vega. Diseño por Victoriano Sevillano Vega. Copyright 2018.</p>
+        <div class="social-media-footer">
+            <a href="https://www.facebook.com/Vsevillano1991"> <img src="svg/facebook.svg" alt="Logo de Facebook"></a>
+            <a href="https://twitter.com/Vsevillanoo"> <img src="svg/twitter.svg" alt="Logo de Twitter"></a>
+            <a href="https://github.com/Vsevillano"> <img src="svg/github2.svg" alt="Logo de github"></a>
+        </div>
+    </footer>
 </body>
 </html>
