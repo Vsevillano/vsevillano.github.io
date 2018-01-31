@@ -1,0 +1,126 @@
+<!--
+    Aplicarle Diseño y estilo a la página que va a ser vuestra carta de presentación como profesionales de desarrollo web, 
+    en la que incluiréis vuestra información personal y profesional, 
+    vuestro portfolio, 
+    redes sociales y/o profesionales, 
+    y toda la información que creáis debéis incluir en vuestra pagina profesional. 
+    
+    Teniendo en cuenta los siguientes requisitos.:
+    Aplicando correctamente las etiquetas html5, estructura y semántica. 
+    
+    Obligatoriamente deben aparecer las etiquetas:
+    header
+    footer (si fuera necesario)
+    aside (si fuera necesario)
+    section
+    article
+    
+    Debes implementar la práctica con estilo, coherencia y un buen equilibrio visual (con todo lo que conlleva), 
+    velocidad de carga, compatibilidad, ...
+    
+    Debes crear y entregar los mockups que desarrolles, incluidos todos los diseños de todos los responsives.
+    Usa en la medida de lo posible, siempre que no incumpla el punto anterior los estilos de CSS3 que puedas. Debe ser a tu criterio, y deberás defenderlo y justificarlo a tu profesor.
+    La página debe poder adaptarse a todas resoluciones y tamaños.
+    
+    Debe conseguir la mayor compatibilidad posible con todos los navegadores y versiones. Recuerda usar normalice.css
+    Debéis ser críticos con vuestra página, ya que va a ser vuestra carta de presentación para buscar trabajo en un futuro una vez terminéis el ciclo. La evaluaremos y analizaremos desde el punto de vista real en el mercado de trabajo.
+    Evaluación de la práctica:
+    
+    Los puntos anteriores son requisitos mínimos para superar la práctica.
+    Se valorará muchísimo la originalidad y por supuesto, una muy buena composición y equilibrio visual, buena presencia, correcta combinación de colores, agradables animaciones,....
+    Se valorará de forma positiva la compatibilidad en diferentes navegadores.
+    
+    Es imprescindible que sepáis defender vuestro código ante cualquier pregunta sobre vuestra práctica. 
+    Sino sabéis contestar cualquier pregunta, doy por supuesto que no lo habéis hecho vosotros o está copiada, y la práctica, por lo tanto, valorada como no superada.
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <link rel="stylesheet" href="css/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Victoriano Sevillano Vega - Portfolio</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/menu.js"></script>
+</head>
+<body>
+    <main>
+        <div class="cabecera">
+            <div class="social-media">
+                <a href="https://www.facebook.com/Vsevillano1991"> <img src="svg/facebook.svg" alt="Logo de Facebook"></a>
+                <a href="https://twitter.com/Vsevillanoo"> <img src="svg/twitter.svg" alt="Logo de Twitter"></a>
+                <a href="https://github.com/Vsevillano"> <img src="svg/github2.svg" alt="Logo de github"></a>
+            </div>
+            <div class="open">
+                <span class="cls"></span>
+                <span>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="#about" title="about">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#skills" title="skills">Sobre mi</a>
+                        </li>
+                        <li>
+                            <a href="#jobs" title="jobs">Proyectos</a>
+                        </li>
+                    </ul>
+                </span>
+                <span class="cls"></span>
+            </div>
+            <div class="inicio">
+                <h1>Victoriano Sevillano Vega</h1>
+                <h2>Sysadmin &amp; Developer</h2>
+                <button id="verMas">Ver más</button>
+            </div>
+        </div>
+        
+        <div class="sobre-mi">
+            <div id="sobre-mi-title">
+                <h2>Sobre mi</h2>
+            </div>
+            <div class="sobre-mi-contenido">
+                <div class="sobre-mi-imagen">
+                    <img src="img/victor.jpg" alt="">
+                </div>
+                <div class="sobre-mi-info">
+                    <h3>Presentacion</h3>
+                    <p>¡Hola y bienvenido a mi web personal! Mi nombre es Victoriano Sevillano Vega, y soy Administrador de Sistemas Informaticos en Red (CFGS ASIR), así como Desarrollador de aplicaciones web (CFGS DAW). <br> En esta web podrás encontrar todo el contenido relacionado con mi trabajo, aficiones, intereser, proyectos en los que he trabajado o ando trabajando actualmente, y todo lo que pueda estar relacionado con el mundo de las TIC. <br>Espero que os guste y un saludo.</p>
+                </div>
+            </div>
+            <div class="perfiles">
+                <div class="perfil">
+                    <h3>Sysadmin</h3>
+                    <p>Cuento con el titulo de Administrador de Systemas Informaticos en Red (ASIR), cursado en el I.E.S. Gran capitán de Córdoba</p>
+                    <p>Cuento con habilidades como:</p>
+                    <ul>
+                        <li>Administracion y gestion de servicios como DNS, DHCP,NFS,PXE...</li>
+                        <li>Administracion de sistemas operativos tanto Linux como Windows.</li>
+                        <li>Gestion de maquinas virtuales con VMware, VirtualBox, ESX, o similar.</li>
+                        <li>Gestion y administracion de SGBBDD como MySQL, Oracle (incluido APEX), programacion PL/SQL.</li>
+                        <li>Gestion de servicios con Webmin</li>
+                        <li>Virtualizacion de contenedores con Docker</li>
+                        <li>Administracion y gestion de CMS como Moodle, Prestashop, Wordpress, Drupal...</li>
+                    </ul>
+                </div>
+                <div class="perfil">
+                    <h3>Developer</h3>
+                    <p>Poseo también la titulación como Desarrollador de Aplicaciones Web (DAW), cursado en el I.E.S. Gran Capitán en Córdoba.</p>
+                    <p>Cuento con habilidades como:</p>
+                    <ul>
+                        <li>Programacion del lado del cliente (HTML5, CSS3, JavaScript, jQuery...)</li>
+                        <li>Programacion del lado del servidor(PHP)</li>
+                        <li>Programacion en otros lenguajes como Android, Java, XML, AJAX... </li>
+                        <li>Control de versiones con github y bitbucket</li>
+                        <li>Despliegue de aplicaciones web con Apache, Tomcat, etc</li>
+                        <li>Diseño de interfaces web HTML5 y CSS y preprocesadores como Less, Stylus o Sass</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
