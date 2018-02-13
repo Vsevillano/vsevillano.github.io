@@ -1,0 +1,136 @@
+
+.sobre-mi h2{
+    font-family: 'Familia3';
+    text-align: center;
+    font-size: 2rem;
+}
+
+.sobre-mi h3{
+    font-family: 'Familia3';
+    text-align: center;
+}
+
+.sobre-mi p{
+    text-align: justify;
+    padding: 2%;
+    margin: 10px;
+    font-family: 'Familia1';
+    
+}
+
+.sobre-mi-contenido {
+    text-align: center;
+}
+
+.sobre-mi-contenido img {
+    border-radius: 50%;
+    border: 2px solid wheat;
+    box-shadow: 1px 2px grey;
+}
+
+.sobre-mi-imagen img {
+    width: 200px;
+    height: 200px;
+}
+
+.perfil ul {
+    text-align: justify;
+    margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    #verMas {
+        margin-top: 5%;
+    }
+    
+    .inicio {
+        padding-top: 10%;
+        font-size: 1.4rem;
+    }
+    
+    .sobre-mi-contenido {
+        display: flex;
+    }
+    
+    .sobre-mi-contenido img {
+        margin-top: 40%;
+        margin-left: 30%;
+    }
+    
+    .sobre-mi-contenido p {
+        margin-left: 20%;
+    }
+    
+    .perfiles {
+        display: flex;
+    }
+    
+    .proyectos-conjunto {
+        display: flex;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .proyecto {
+        margin: 5%;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer p {
+        display: flex;
+        flex: 3;
+    }
+    
+    .social-media-footer {
+        flex: 1;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre-mi-contenido {
+        display: flex;
+    }
+    
+    .sobre-mi-contenido img {
+        margin-top: 40%;
+        margin-left: 30%;
+    }
+    
+    .sobre-mi-contenido p {
+        margin-left: 20%;
+    }
+    
+    .perfiles {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sobre-mi {
+        min-height: 100vh;
+    }
+    
+    .sobre-mi-imagen img {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .sobre-mi-contenido {
+        display: flex;
+    }
+    
+    .sobre-mi-contenido img {
+        margin-top: 10%;
+        margin-left: 40%;
+    }
+    
+    .sobre-mi-contenido p {
+        margin-left: 10%;
+    }
+}

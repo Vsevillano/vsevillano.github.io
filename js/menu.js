@@ -32,8 +32,6 @@ $(document).ready(function() {
       scrollTop = $(window).scrollTop();
       
       if (scrollTop >= 600) {
-        $('#cabecera').addClass('cabecera2');
-        $('#cabecera').removeClass('cabecera');
         $('#open').addClass('open_black');
         $('#open').removeClass('open');
 
