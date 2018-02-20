@@ -43,8 +43,7 @@
     font-family: 'Familia1';
     text-align: justify;
     padding-top: 20%;
-    padding-left: 2%;
-    padding-right: 2%;
+
     box-shadow: 0 1px 10px rgba(0,0,0,.1);
     margin-bottom: 5px;
 }
@@ -59,7 +58,8 @@
 }
 
 .proyecto-sample {
-    min-height: 200px;
+    text-align: center;
+    height: 300px;
     padding: 5px;
     margin-bottom: 10px;
     box-shadow: 10px 13px 10px -10px rgba(0,0,0,0.75);
@@ -120,6 +120,7 @@
         justify-content: flex-start;
         align-items: center;
         padding-top: 8%;
+        margin-bottom: 10px;
     }
 
     .proyecto-sample {
