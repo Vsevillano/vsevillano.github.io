@@ -40,17 +40,29 @@
 }
 
 .proyetos-page {
+    background: url(../img/fondo4.jpg) no-repeat fixed center;
+
+    filter: drop-shadow(5px);
     font-family: 'Familia1';
     text-align: justify;
     padding-top: 20%;
 
-    box-shadow: 0 1px 10px rgba(0,0,0,.1);
+    padding-bottom: 20px;
     margin-bottom: 5px;
 }
 
 .proyetos-page h2 {
     font-family: 'Familia3';
     text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.proyetos-page > p {
+    font-family: 'Familia1';
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
 }
 
 .proyetos-page h3 {
@@ -58,6 +70,7 @@
 }
 
 .proyecto-sample {
+    background-color: white;
     text-align: center;
     height: 300px;
     padding: 5px;
@@ -112,7 +125,7 @@
     } 
 
     .proyectos-group {
-        justify-content: space-between;
+        justify-content: space-around;
         align-content: center;
     }
 
