@@ -39,13 +39,19 @@
     padding: 5px;
 }
 
-.proyetos-page {
-    background: url(../img/fondo4.jpg) no-repeat fixed center;
 
+
+.proyetos-page {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, black 0%,white 100%),
+    url('../img/fondo4.jpg');
+    background-blend-mode:saturation;
+    
+    
     font-family: 'Familia1';
     text-align: justify;
     padding-top: 20%;
-
+    
     padding-bottom: 20px;
     margin-bottom: 5px;
 }
@@ -106,18 +112,18 @@
     .proyecto {
         margin: 5%;
     }
-
+    
     .proyetos-page {
         padding-top: 15%;
     }
-
+    
     .proyectos-group {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
     }
-
+    
     .proyecto-sample {
         width: 350px;
     }
@@ -127,12 +133,12 @@
     .proyecto {
         margin: 5%;
     } 
-
+    
     .proyectos-group {
         justify-content: space-around;
         align-content: center;
     }
-
+    
     .proyetos-page {
         min-height: 70vh;
         justify-content: flex-start;
@@ -140,7 +146,7 @@
         padding-top: 8%;
         margin-bottom: 10px;
     }
-
+    
     .proyecto-sample {
         width: 30%;
     }
