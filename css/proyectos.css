@@ -42,7 +42,6 @@
 .proyetos-page {
     background: url(../img/fondo4.jpg) no-repeat fixed center;
 
-    filter: drop-shadow(5px);
     font-family: 'Familia1';
     text-align: justify;
     padding-top: 20%;
@@ -77,8 +76,13 @@
     margin-bottom: 10px;
     box-shadow: 10px 13px 10px -10px rgba(0,0,0,0.75);
     border-radius: 20px;
-
 }
+
+.proyecto-sample p img {
+    height: 100px;
+    width: 100px;
+}
+
 
 .proyecto-sample:hover {
     box-shadow: 10px 13px 10px -6px rgba(0,0,0,0.75);
@@ -130,6 +134,7 @@
     }
 
     .proyetos-page {
+        min-height: 70vh;
         justify-content: flex-start;
         align-items: center;
         padding-top: 8%;

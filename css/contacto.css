@@ -1,0 +1,91 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.contacto p {
+    padding: 5px;
+    text-align: justify;
+}
+
+.contacto span {
+    color: red;
+}
+
+.contacto legend {
+    margin-bottom: 10px;
+}
+
+.contacto h2 {
+    padding-top: 20px;
+    font-family: 'Familia3';
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contacto form {
+    font-family: 'Familia1';
+    width: 100%;
+}
+
+.contacto label {
+    font-weight: bolder;
+}
+
+.contacto input, textarea {
+    width: 90%;
+    margin: 5px;
+    background-color: #f3f3f3;
+}
+
+.contacto input[type='submit'] {
+    border-radius: 10px;
+    width: 30%;
+}
+
+.contacto input[type='submit']:hover {
+    width: 35%;
+    transition: all 1s;
+}
+
+
+.contacto input:required {
+	border: 1px solid blue;
+}
+
+.contacto input:required:valid {
+	border: 2px solid green;
+}
+
+.contacto input:required:invalid {
+	border: 2px solid red;
+}
+
+.contacto input:required:not(:focus) {
+    border: 1px solid gray;
+}
+
+@media screen and (min-width: 768px) {
+    .contacto form {
+        width: 80%;
+    }
+    
+    .contacto input, textarea {
+        width: 60%;
+        margin: 10px;
+    }
+} 
+
+@media screen and (min-width: 1024px) {
+    .contacto form {
+        width: 50%;
+    }
+    
+    .contacto input, textarea {
+        margin: 20px;
+    }
+} 
