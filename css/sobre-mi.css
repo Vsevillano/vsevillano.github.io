@@ -133,4 +133,8 @@
     .sobre-mi-contenido p {
         margin-left: 10%;
     }
+
+    .perfiles {
+        font-size: 1.1rem;
+    }
 }
