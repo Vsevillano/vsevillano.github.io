@@ -39,6 +39,45 @@
     padding: 5px;
 }
 
+.proyetos-page {
+    font-family: 'Familia1';
+    text-align: justify;
+    padding-top: 20%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 0 1px 10px rgba(0,0,0,.1);
+    margin-bottom: 5px;
+}
+
+.proyetos-page h2 {
+    font-family: 'Familia3';
+    text-align: center;
+}
+
+.proyetos-page h3 {
+    font-family: 'Familia3';
+}
+
+.proyecto-sample {
+    min-height: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-shadow: 10px 13px 10px -10px rgba(0,0,0,0.75);
+    border-radius: 20px;
+
+}
+
+.proyecto-sample:hover {
+    box-shadow: 10px 13px 10px -6px rgba(0,0,0,0.75);
+    background-color: #f5f5f5;
+    transition: all 1s;
+    
+}
+
+.proyecto-sample h3{
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .proyectos-conjunto {
         display: flex;
@@ -50,10 +89,40 @@
     .proyecto {
         margin: 5%;
     }
+
+    .proyetos-page {
+        padding-top: 15%;
+    }
+
+    .proyectos-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .proyecto-sample {
+        width: 350px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .proyecto {
         margin: 5%;
     } 
+
+    .proyectos-group {
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .proyetos-page {
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 8%;
+    }
+
+    .proyecto-sample {
+        width: 30%;
+    }
 }
